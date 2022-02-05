@@ -17,8 +17,15 @@ function imcCalculator(){
 function validationImc(){
     if(weight != null && height != null){
         imcCalculator()
+        setHeight(null)
+        setWeight(null)
         setMessageImc("Seu IMC é igual:")
+        setTextButton("Calcular Novamente")
+        return
     }
+    setImc(null)
+    setTextButton("Calcular")
+    setMessageImc("preencha o peso e altura")
 }
 
     return(
@@ -27,12 +34,16 @@ function validationImc(){
 
                <Text>Altura</Text>
                <TextInput
+               onChangeText={setHeight}
+               value={height}
                placeholder="Ex. 1.75"
                keyboardType="numeric"
                />
 
                <Text>Peso</Text>
                <TextInput
+               onChangeText={setWeight}
+               value={weight}
                placeholder="Ex. 75.365"
                keyboardType="numeric"
                />
