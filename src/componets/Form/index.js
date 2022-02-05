@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 import { View, Text, TextInput, Button } from "react-native"
+import styles from "./style";
 import ResultImc from "./ResultIMC";
 
 export default function Form(){
@@ -25,11 +26,11 @@ function validationImc(){
     }
     setImc(null)
     setTextButton("Calcular")
-    setMessageImc("preencha o peso e altura")
+    setMessageImc("Preencha o peso e altura!!!")
 }
 
     return(
-       <View>
+       <View style={styles.formContext}>
            <View>
 
                <Text>Altura</Text>
