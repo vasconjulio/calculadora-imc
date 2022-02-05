@@ -10,4 +10,6 @@ Aplicativo criado em React Native, com uso da IDE VSCode + Android Studio.
 5. estilização;
 6. conclusão
 
+<img src="./assets/gif.gif">
+
 
