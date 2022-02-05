@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import { View, Text, TextInput, Button } from "react-native"
+import { View, Text, TextInput, TouchableOpacity } from "react-native"
 import styles from "./style";
 import ResultImc from "./ResultIMC";
 
@@ -49,10 +49,12 @@ function validationImc(){
                placeholder="Ex. 75.365"
                keyboardType="numeric"
                />
-               <Button 
-               onPress={() => validationImc()}
-               title={textButton}
-               />              
+               <TouchableOpacity style={styles.buttonCalculator}
+               onPress={() =>{
+                validationImc()
+               }}>
+               <Text style={styles.textButtonCalculator}>{textButton}</Text>
+               </TouchableOpacity>
            </View>
            <ResultImc messageResultImc={messageImc} resultImc={imc} />
        </View>
