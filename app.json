@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Project",
-    "slug": "Project",
+    "name": "Calculadora de IMC",
+    "slug": "Calcule-seu-IMC",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
