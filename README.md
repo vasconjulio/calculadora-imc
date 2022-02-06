@@ -14,7 +14,7 @@ Aplicativo criado em React Native, com uso da IDE VSCode + Android Studio.
 
 Link para baixar o App: https://bityli.com/Calcular-IMC
 
-<img src="./assets/QR-code-Calcular-IMC.png">
+<img whidht="50%" src="./assets/QR-code-Calcular-IMC.png">
 <img src="./assets/gif.gif">
 
 
