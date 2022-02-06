@@ -1,4 +1,4 @@
-# Project
+# Calculadora de IMC
 Project Calculador de IMC
 
 Aplicativo criado em React Native, com uso da IDE VSCode + Android Studio.
