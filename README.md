@@ -16,7 +16,7 @@ Link para baixar o App: https://bityli.com/Calcular-IMC
 <p>Lembrando que é necessário autorizar no seu smartphone a instalação de apps desconhecidos</p>
 
 <img width="30%" src="./assets/QR-code-Calcular-IMC.png">
-<img src="./assets/testefinal.gif">
+<img width="30%" src="./assets/testefinal.gif">
 
 
 
